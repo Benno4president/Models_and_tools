@@ -4,9 +4,16 @@
 ```
 $ cd /usr/local/lib
 $ sudo curl -O https://www.antlr.org/download/antlr-4.9.2-complete.jar
+
+# note these should be added to .zshrc/.bashrc or resourced by calling the .sh script.
 $ export CLASSPATH=".:/usr/local/lib/antlr-4.9.2-complete.jar:$CLASSPATH"
 $ alias antlr4='java -jar /usr/local/lib/antlr-4.9.2-complete.jar'
 $ alias grun='java org.antlr.v4.gui.TestRig'
+```
+
+Python runtime/lib
+```
+pip install antlr4-python3-runtime
 ```
 
 The Language dev example:
