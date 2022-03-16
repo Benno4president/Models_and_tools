@@ -1,0 +1,8 @@
+clock --> x=3, t=True, t=22
+
+"Rest"{
+    x < 2, t>2, rr<2 --> "Work"
+}
+"Work"{
+    x<2, x=2 --> "Rest"
+}
