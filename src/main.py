@@ -12,7 +12,7 @@ def get_username():
 
 
 def scratch_main(fp, args):
-    data = FileStream(next(iter(fp)))
+    data = FileStream(next(iter(fp))) # weird solution, but works
     # lexer
     lexer = ScratchLexer(data)
     stream = CommonTokenStream(lexer)

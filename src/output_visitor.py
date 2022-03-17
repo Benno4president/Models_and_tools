@@ -6,6 +6,7 @@ from _antlr4.ScratchParser import ScratchParser
 
 class OutputVisitor(ScratchVisitor):
     def visitProgram(self, ctx: ScratchParser.ProgramContext):
+        print("working")
         return super().visitProgram(ctx)
 
     def visitState_setup(self, ctx: ScratchParser.State_setupContext):

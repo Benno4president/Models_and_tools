@@ -1,5 +1,5 @@
-clock --> x=3, t=True, t=22
-
+clock --> x=0 
+t=True, t=22
 "Rest"{
     x < 2, t>2, rr<2 --> "Work"
 }
